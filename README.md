@@ -1,8 +1,6 @@
 # Ex.No:6 Design an android application Send SMS using Intent.
 
-
 ## AIM:
-
 To create and design an android application Send SMS using Intent using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
@@ -129,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private void sendSMS() {
         String msg=message.getText().toString();
         String phoneNo=phone_number.getText().toString();
@@ -146,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -171,7 +167,6 @@ public class MainActivity extends AppCompatActivity {
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
 ```
 
@@ -182,7 +177,6 @@ public class MainActivity extends AppCompatActivity {
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
     <style name="Theme.SendSMS" parent="Base.Theme.SendSMS" />
 </resources>
 ```
