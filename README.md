@@ -4,7 +4,6 @@
 To create and design an android application Send SMS using Intent using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
-
 Android Studio(Latest Version)
 
 ## ALGORITHM:
@@ -22,6 +21,7 @@ Step 5: Design layout in activity_main.xml.
 Step 6: Send SMS and Display details give in MainActivity file.
 
 Step 7: Save and run the application.
+
 
 ## PROGRAM:
 ```
@@ -102,7 +102,6 @@ Registeration Number : 212222040008
 package com.example.sendsms;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -182,9 +181,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-
 ![WhatsApp Image 2024-03-17 at 21 39 36_fc846c2c](https://github.com/sabithapaulraj/sendsms/assets/118343379/e7e02b55-461e-4e56-bba3-b48c1e8a18e7)
-
 ![WhatsApp Image 2024-03-17 at 21 39 54_4136ba93](https://github.com/sabithapaulraj/sendsms/assets/118343379/03b08592-4925-414d-afb9-b3854f76403c)
 
 
