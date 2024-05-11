@@ -7,7 +7,6 @@ To create and design an android application Send SMS using Intent using Android 
 Android Studio(Latest Version)
 
 ## ALGORITHM:
-
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
 Step 2: Then type the Application name as smsintent and click Next. 
@@ -31,7 +30,6 @@ Developed by: Ann Blessy Philips
 Registeration Number : 212222040008
 */
 ```
-
 ### In activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -100,7 +98,6 @@ Registeration Number : 212222040008
 ### In MainActivity.java
 ```
 package com.example.sendsms;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
@@ -161,7 +158,6 @@ public class MainActivity extends AppCompatActivity {
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -181,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![Screenshot 2024-05-11 170749](https://github.com/AnnBlessy/sendsms/assets/119477835/0aac47dc-f5c5-4c61-b911-810cc42db1d4)                   ![Screenshot 2024-05-11 170816](https://github.com/AnnBlessy/sendsms/assets/119477835/b9381114-631d-4cd0-87cf-7c0f6f9b402c)
+![Screenshot 2024-05-11 170749](https://github.com/AnnBlessy/sendsms/assets/119477835/0aac47dc-f5c5-4c61-b911-810cc42db1d4) __ ![Screenshot 2024-05-11 170816](https://github.com/AnnBlessy/sendsms/assets/119477835/b9381114-631d-4cd0-87cf-7c0f6f9b402c)
 
 ## RESULT
 Thus a Simple Android Application create and design an android application Send SMS using Intent using Android Studio is developed and executed successfully.
